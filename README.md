@@ -5,26 +5,30 @@ To write a program to implement the K Means Clustering for Customer Segmentation
 
 ## Equipments Required:
 1. Hardware – PCs
-2. Anaconda – Python 3.7 Installation / Jupyter notebook
+2. Anaconda – Python 3.7 Installation / Moodle-Code Runner
 
-## Algorithm :
-1. Import the necessary packages using import statement.
-2. Read the given csv file using read_csv() method and print the number of contents to be displayed using df.head().
-3. Import KMeans and use for loop to cluster the data.
-4. Predict the cluster and plot data graphs.
-5. Print the outputs and end the program.
+## Algorithm
+
+~~~
+1.Import pandas and matplot libraries.
+2.import Kmeans algorithm to solve customer segmentation.
+3.Using the for loop cluster the given data
+4.Predict the output and plot data graphs.
+5.Display the output
+
+~~~
+
 ## Program:
-```
+
 Program to implement the K Means Clustering for Customer Segmentation.
-Developed by: MANO M
-RegisterNumber:  212221040100
-```
+Developed by:M.MANO
+RegisterNumber: 212221040100
+
 ```
 import pandas as pd
 import matplotlib.pyplot as plt
-data = pd.read_csv("Mall_Customers.csv")
-
-data.head()
+data = pd.read_csv("/content/Dataset-20230524.zip")
+data
 
 data.info()
 
@@ -34,14 +38,14 @@ from sklearn.cluster import KMeans
 wcss = []
 
 for i in range(1,11):
-  kmeans = KMeans(n_clusters = i,init = "k-means++")
-  kmeans.fit(data.iloc[:,3:])
-  wcss.append(kmeans.inertia_)
+    kmeans = KMeans(n_clusters = i,init = "k-means++")
+    kmeans.fit(data.iloc[:,3:])
+    wcss.append(kmeans.inertia_)
 
 plt.plot(range(1,11),wcss)
 plt.xlabel("No. of Clusters")
 plt.ylabel("wcss")
-plt.title("Elbow Method")
+plt.title("Elbow Method")
 
 km = KMeans(n_clusters = 5)
 km.fit(data.iloc[:,3:])
@@ -63,25 +67,67 @@ plt.scatter(df4["Annual Income (k$)"],df4["Spending Score (1-100)"],c="purple",l
 plt.legend()
 plt.title("Customer Segments")
 ```
+
+
+
 ## Output:
 
-## data.head()
-![image](https://github.com/NaveenKumar-008/Implementation-of-K-Means-Clustering-for-Customer-Segmentation/assets/128135244/d8e62051-9409-4093-b9c2-031766ac66a2)
 
-## data.info()
-![image](https://github.com/NaveenKumar-008/Implementation-of-K-Means-Clustering-for-Customer-Segmentation/assets/128135244/543b2c5a-7ef0-4ea9-8cb6-3a0ec119293f)
+DATA.HEAD():
 
-## data.isnull().sum()
-![image](https://github.com/NaveenKumar-008/Implementation-of-K-Means-Clustering-for-Customer-Segmentation/assets/128135244/ddd10959-0347-4678-9479-644ab7f57c5c)
+![image](https://github.com/KathirvelAIDS/Implementation-of-K-Means-Clustering-for-Customer-Segmentation/assets/94911373/8a60f9cd-a5ca-43d9-aa27-5e8002bcfabd)
 
-## Elbow method Graph
-![image](https://github.com/NaveenKumar-008/Implementation-of-K-Means-Clustering-for-Customer-Segmentation/assets/128135244/05bacfb1-cc08-487d-ae2e-e9427831a509)
 
-## KMeans clusters
-![image](https://github.com/NaveenKumar-008/Implementation-of-K-Means-Clustering-for-Customer-Segmentation/assets/128135244/f27d5c0a-7c1b-4847-974b-6901209aa229)
 
-## Customer segments Graph
-![image](https://github.com/NaveenKumar-008/Implementation-of-K-Means-Clustering-for-Customer-Segmentation/assets/128135244/2249e039-69e2-43f3-9e49-2f7557304260)
+DATA.info():
+
+
+![image](https://github.com/KathirvelAIDS/Implementation-of-K-Means-Clustering-for-Customer-Segmentation/assets/94911373/99555b1e-f1da-489f-8ade-3290c0bb0e18)
+
+
+
+
+NULL VALUES:
+
+
+![image](https://github.com/KathirvelAIDS/Implementation-of-K-Means-Clustering-for-Customer-Segmentation/assets/94911373/40ffa4dc-a7ba-4cd9-ad77-833b22885dc4)
+
+
+
+ELBOW GRAPH:
+
+
+
+![image](https://github.com/KathirvelAIDS/Implementation-of-K-Means-Clustering-for-Customer-Segmentation/assets/94911373/fd156d40-431c-42ce-872e-075698f48dd9)
+
+
+
+
+CLUSTER FORMATION:
+
+
+
+![image](https://github.com/KathirvelAIDS/Implementation-of-K-Means-Clustering-for-Customer-Segmentation/assets/94911373/c7b31969-c519-46d7-9264-4aa85bf9fea6)
+
+
+
+
+PREDICICTED VALUE:
+
+
+![image](https://github.com/KathirvelAIDS/Implementation-of-K-Means-Clustering-for-Customer-Segmentation/assets/94911373/11d8c3ee-9f34-49f6-9db5-2a941a7c137b)
+
+
+
+
+FINAL GRAPH(D/O):
+
+
+
+
+![image](https://github.com/KathirvelAIDS/Implementation-of-K-Means-Clustering-for-Customer-Segmentation/assets/94911373/4fde4b6a-c249-4539-8b45-065190526922)
+
+
 
 ## Result:
 Thus the program to implement the K Means Clustering for Customer Segmentation is written and verified using python programming.
