@@ -75,14 +75,16 @@ plt.title("Customer Segments")
 
 DATA.HEAD():
 
-![image](https://github.com/KathirvelAIDS/Implementation-of-K-Means-Clustering-for-Customer-Segmentation/assets/94911373/8a60f9cd-a5ca-43d9-aa27-5e8002bcfabd)
+![image](https://github.com/Dark77devil/Implementation-of-K-Means-Clustering-for-Customer-Segmentation/assets/115543366/496e4fa5-eae0-4056-b287-f56ae12bf7f3)  
+
 
 
 
 DATA.info():
 
 
-![image](https://github.com/KathirvelAIDS/Implementation-of-K-Means-Clustering-for-Customer-Segmentation/assets/94911373/99555b1e-f1da-489f-8ade-3290c0bb0e18)
+![image](https://github.com/Dark77devil/Implementation-of-K-Means-Clustering-for-Customer-Segmentation/assets/115543366/88b65222-8868-46ef-8733-914327ba87fa)  
+
 
 
 
@@ -90,15 +92,16 @@ DATA.info():
 NULL VALUES:
 
 
-![image](https://github.com/KathirvelAIDS/Implementation-of-K-Means-Clustering-for-Customer-Segmentation/assets/94911373/40ffa4dc-a7ba-4cd9-ad77-833b22885dc4)
+![image](https://github.com/Dark77devil/Implementation-of-K-Means-Clustering-for-Customer-Segmentation/assets/115543366/e79a2011-6708-4b48-8129-c8215e97b5d4)  
+
 
 
 
 ELBOW GRAPH:
 
 
+![image](https://github.com/Dark77devil/Implementation-of-K-Means-Clustering-for-Customer-Segmentation/assets/115543366/cefec210-b79e-44e0-bcca-d0f856df9edd)  
 
-![image](https://github.com/KathirvelAIDS/Implementation-of-K-Means-Clustering-for-Customer-Segmentation/assets/94911373/fd156d40-431c-42ce-872e-075698f48dd9)
 
 
 
@@ -106,8 +109,8 @@ ELBOW GRAPH:
 CLUSTER FORMATION:
 
 
+![image](https://github.com/Dark77devil/Implementation-of-K-Means-Clustering-for-Customer-Segmentation/assets/115543366/1c6fb8d4-16ec-4cda-8d15-5db780260121)  
 
-![image](https://github.com/KathirvelAIDS/Implementation-of-K-Means-Clustering-for-Customer-Segmentation/assets/94911373/c7b31969-c519-46d7-9264-4aa85bf9fea6)
 
 
 
@@ -115,7 +118,8 @@ CLUSTER FORMATION:
 PREDICICTED VALUE:
 
 
-![image](https://github.com/KathirvelAIDS/Implementation-of-K-Means-Clustering-for-Customer-Segmentation/assets/94911373/11d8c3ee-9f34-49f6-9db5-2a941a7c137b)
+![image](https://github.com/Dark77devil/Implementation-of-K-Means-Clustering-for-Customer-Segmentation/assets/115543366/d7476df0-5cd4-4144-bb11-138733e10c6a)  
+
 
 
 
@@ -125,7 +129,7 @@ FINAL GRAPH(D/O):
 
 
 
-![image](https://github.com/KathirvelAIDS/Implementation-of-K-Means-Clustering-for-Customer-Segmentation/assets/94911373/4fde4b6a-c249-4539-8b45-065190526922)
+![image](https://github.com/Dark77devil/Implementation-of-K-Means-Clustering-for-Customer-Segmentation/assets/115543366/04265ccf-4587-441c-bb08-6e3d0bfd3fb5)  
 
 
 
