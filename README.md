@@ -20,8 +20,8 @@ To write a program to implement the K Means Clustering for Customer Segmentation
 
 ## Program:
 
-Program to implement the K Means Clustering for Customer Segmentation.
-Developed by: M.MANO
+Program to implement the K Means Clustering for Customer Segmentation.  
+Developed by: M.MANO  
 RegisterNumber: 212221040100 
 
 ```
